@@ -295,7 +295,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .single-welcome-hero-form:first-child{border-right: 1px solid #edeff1;}
 .single-welcome-hero-form input {
     margin-left: 10px;
-    height: 70px;
     width: 300px;
     border: 0;
     background: transparent;
@@ -341,11 +340,33 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*-------------------------------------
         5. List-topuics
 --------------------------------------*/
+.scrollable {
+    overflow-x: auto;
+    padding: 30px 0 50px;
+}
+.scrollable {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.scrollable::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.list-topics {
+    margin-top: -98px;
+}
+
 .list-topics-content {
     position: relative;
-    top: -98px;
     z-index: 1;
 }
+
+.list-topics-content ul {
+    display: flex;
+    gap: 20px;
+}
+
 .list-topics-content ul li { display: inline-block;}
 
 .single-list-topics-content{
@@ -357,8 +378,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     height: 170px;
     background:#fff;
     border-radius: 3px;
-    margin-right: 20px;
-    margin-bottom: 20px;
     box-shadow: 0 0px 10px rgba(71,71,71,.2);
     -webkit-transition: .3s linear; 
     -moz-transition:.3s linear; 
