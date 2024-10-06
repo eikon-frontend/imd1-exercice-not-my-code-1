@@ -1,8 +1,8 @@
 # Exercice
 
-## Objectif
+## Travail
 
-Vous allez devoir reprendre le code de ce site et y apporter quelques modifications selon la demande du client. Vous n'avez pas plus d'informations que ce que vous voyez sur le site. Vous devrez donc faire preuve d'initiative et de débrouillardise pour répondre au mieux à la demande du client.
+Ouvrez le dossier du projet dans VS Code et lancez "Live Server" pour visualiser le site. Vous devrez modifier le code HTML et CSS pour répondre aux demandes du client.
 
 ## Consignes
 
